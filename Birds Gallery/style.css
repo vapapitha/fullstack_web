@@ -1,0 +1,13 @@
+.container{
+    background-color: whitesmoke;
+}
+body{
+    background: teal;
+}
+h1{
+    text-align: center;
+    color: aqua;
+}
+img{
+    height: 250px;
+}
