@@ -1,0 +1,59 @@
+
+/* body{
+  background-color: blueviolet;
+  background: url(/home/rifat/Downloads/art-ball-ball-shaped-235615.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:rgba(0, 0, 0, 0.212);
+  color: black;
+  font-size: 40px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-shadow: 30px;
+} */
+
+
+body{
+  background-color: blueviolet;
+  background: url(/home/rifat/Downloads/art-ball-ball-shaped-235615.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(20, 162, 187);
+  background-color: rgba(0, 0, 0, 0.253);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(235, 5, 5);
+
+  top: 00%;
+  left: 43%;
+  position: absolute;
+  margin: 10px;
+ 
+}
+
+.button:hover {background-color: #3e8e41;
+               color:white
+              }
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
