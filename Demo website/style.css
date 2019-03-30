@@ -1,0 +1,64 @@
+a{
+    color: white;
+    text-decoration: underline;    
+}
+a:hover{
+    color:black;
+  
+}
+
+.card-footer{
+    background-color: #7eadb6;
+    border: #66e21f
+    
+}
+h1{
+    color: white;
+}
+.card-subtitel{
+    color: #66e21f;
+}
+.card-title{
+    color: blueviolet
+}
+img{
+    height: 250px;
+}
+
+nav{
+    position: fixed;
+    background: #1f4037;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.jumbotron{
+padding: 10px 25px;
+    background: #1f4037;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+
+.footer {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 450px;
+    width: 100%;
+    background: #43C6AC; 
+    background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 6EM;
+ }
+ card:hover{
+     color: rgb(69, 175, 43);
+ }
