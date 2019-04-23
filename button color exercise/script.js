@@ -1,4 +1,4 @@
-var Button= document.querySelector("Button"); 
+var button= document.querySelector("Button"); 
 
 var paragraph= document.querySelector("p");
 
