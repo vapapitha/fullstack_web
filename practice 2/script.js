@@ -1,0 +1,5 @@
+document.getElementById("first")
+document.getElementsByTagName("h3")
+document.getElementsByClassName("second")
+document.querySelector("h1")
+document.querySelectorAll("h1")
