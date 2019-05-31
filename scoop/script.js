@@ -1,29 +1,45 @@
-// // Root scope (window)
-// var fun = 5;
-// function funfunction(){
-//     // Child scope
-//     var fun = (1,mhello)
+// For all of these, what is the value of a when the function gets called with the alert()
+// #1
+function q1() {
+    var a = 5;
+    if(a > 1) {
+        a = 3;
+    }
+    alert(a);
+ }
 
-//     console.log(fun)
-// } 
+//#2
+var a = 0;
+function q2() {
+    a = 5;
+}
 
-// function funerfunction(){
-//     // Child scope
-//     var fun = (byeeeeeeeeeeeeeeeee);
+function q22() {
+    alert(a); 
+}
 
-//     console.log(2,fun)
-// } 
+//#3
+function q3() {
+    window.a = "hello";
+}
 
-// function funestfunction(){
-//     // Child scope
-//     var fun = (tata)
+function q32() {
+    alert(a); 
+}
 
-//     console.fun(3,fun)
-// } 
+//#4
+var a = 1;
+function q4() {
+    var a = "test";
+    alert(a);
+}
 
-// console.log("windos",fun)
+//#5 
+var a = 2;
+if (true) {
+    var a = 5;
+    alert(a); 
+}
+alert(a); 
 
-
-
-
-
+//NOte... dont complete this
