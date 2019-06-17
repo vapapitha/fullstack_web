@@ -32,10 +32,32 @@ while (count <=333){
 
 var count= 300;
 while (count <=333){
-    if( count% 2!==0)
-    console.log (count);
+    if( count% 2!==0){
+        console.log (count);
+    }
+    
     count++;
 }
+
+
+
+
+// console.log ("print out all number divisible by 5 and 3 between 5 and 50")
+
+
+
+var count = 5;
+ 
+while(count <=50 ){
+    if(count % 3 == 0 && count % 5 == 0){
+        console.log(count);
+    }
+      
+        count++;
+    
+}
+
+
 
 
 
