@@ -1,17 +1,9 @@
-// function cToF(celsius) 
-// {
-//   var cTemp = celsius;
-//   var cToFahr = cTemp * 9 / 5 + 32;
-//   var message = cTemp+'\xB0C is ' + cToFahr + ' \xB0F.';
-//     console.log(message);
-// }
+// Write a JavaScript program to compute the sum of the two given integers. If the two values are same, then returns triple their sum
 
-// function fToC(fahrenheit) 
-// {
-//   var fTemp = fahrenheit;
-//   var fToCel = (fTemp - 32) * 5 / 9;
-//   var message = fTemp+'\xB0F is ' + fToCel + '\xB0C.';
-//     console.log(message);
-// } 
-// cToF(60);
-// fToC(45);
+
+function sum (x,y){
+return (x==y)?((x+y)*2):(x+y)
+
+};
+
+console.log(sum(20,20));
