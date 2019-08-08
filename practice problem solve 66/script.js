@@ -1,16 +1,13 @@
-// Write a JavaScript program to find the larger value between the first or last and set all the other elements with that value. Display the new array.
+function name(str) {
+  if (str.length >= 3 && ((str.substring(0, 3) == 'Los') || (str.substring(0, 3) == 'New')))
+   
+      {
+          return str;
+    }
 
-
-function all_max(nums) 
- {
-    var max_val = nums[0] > nums[2] ? nums[0] : nums[2];
-
-    nums[0] = max_val;
-    nums[1] = max_val;
-    nums[2] = max_val;
-
-    return nums;
+  return '';
 }
-console.log(all_max([20, 30, 40]));
-console.log(all_max([-7, -9, 0]));
-console.log(all_max([12, 10, 3]));
+
+console.log(name("New York"));
+
+  
