@@ -1,0 +1,39 @@
+.one { color: white;
+
+    background-color: #666666;
+    padding: 1em;
+}
+
+.Two { color: black;
+
+    background-color: white;
+    padding: 3em;
+}
+.carousel slide {
+       max-width: 500px;
+        height: 100px;
+        background-color: powderblue;
+      
+}
+
+.carousel-inner > .carousel-item > img {
+    
+    height: 320px;
+}
+
+.footer {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 450px;
+    width: 100%;
+    background: #43C6AC; 
+    background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 6EM;
+ }
+   
