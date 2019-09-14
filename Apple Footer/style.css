@@ -4,10 +4,9 @@
     bottom: 0;
     height: 600px;
     width: 100%;
-    background: #43C6AC;  /* fallback for old browsers */
+    background: #43C6AC; 
     background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    ;
     color: white;
     text-align: center;
  }
@@ -19,7 +18,7 @@
      border-color: none;
  }
  .col{
-    background-color:;
+
     padding: 00px 0px 0px 40px;
 
 }
