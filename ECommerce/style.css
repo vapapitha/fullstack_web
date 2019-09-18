@@ -100,3 +100,80 @@ text-decoration: none;
 {
     margin-right: 5px;
 }
+@media only screen and (max-width: 980px)
+{
+    .top-nav-bar
+    {
+        height: 180px;
+        border-bottom: 0; 
+    }
+
+    .search-box
+    {
+        width: 100%;
+    }
+    .menu-bar
+    {
+        width: 100%;
+    }
+    .menu-bar ul
+    {
+        margin: 10px 0;
+        width: 100%;
+    }
+    .menu-bar ul li
+    {
+        height: 57%;
+        width: 100%;
+    }
+}
+
+
+/* ............side-menu.............. */
+
+
+.side-menu
+{
+    height: 500px;
+    width: 10%;
+    font-size: 14px;
+    z-index: 2;
+    background-color: #aaaaaa;
+}
+
+
+
+.side-menu ul
+{
+margin-left: 10px;
+}
+.side-menu ul li:hover
+{
+    color: orange;
+}
+
+.side-menu ul li ul
+{
+    display: none;
+    z-index: 10;
+    top:77px;
+}
+
+
+.side-menu ul li:hover ul
+{
+    display: block;
+    height: 400px;
+    width: 50px;
+    margin-left: 5%;
+    padding: 100px 100px 10px 10px;
+    position: fixed;
+    background: #ececec;
+    box-shadow: 1px 1px 4px 1px rgba(0,0,0,0,5);
+}
+
+h1 
+{
+    padding: 40px;
+}
+
